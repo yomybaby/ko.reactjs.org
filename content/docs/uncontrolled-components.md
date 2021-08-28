@@ -8,7 +8,7 @@ permalink: docs/uncontrolled-components.html
 
 모든 state 업데이트에 대한 이벤트 핸들러를 작성하는 대신 비제어 컴포넌트를 만들려면 [ref를 사용](/docs/refs-and-the-dom.html)하여 DOM에서 폼 값을 가져올 수 있습니다.
 
-예를 들어 아래 코드는 비제어 컴포넌트에 단일 이름을 허용합니다.
+다음 코드는 비제어 컴포넌트로 이름을 입력 받는 예제 입니다.
 
 ```javascript{5,9,18}
 class NameForm extends React.Component {
